@@ -1,0 +1,219 @@
+.p{
+    font-family: Arial;
+}
+
+.container{
+    display: flex;
+    background-color: #121212; /* Set background color */
+    width: 100vw; /* Ensure container takes full width */
+    height: 100vh; /* Ensure container takes full height */
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Ensure body takes full height */
+}
+
+.Header_section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.yt_logo {
+    width: 100px; /* Adjust size as needed */
+}
+
+.search_button {
+    border-radius: 20px;
+    border: 0.1px solid grey;
+    padding: 10px;
+    width: 500px;
+    background-color: #121212;
+    color: #fff;
+    font-size: 15px;
+}
+/*End of header section*/
+
+/*Beginnning of vertical section*/
+
+.nav_button{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+}
+
+.home{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.home:hover{
+    transform: scale(1.1);
+}
+
+.play{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.play:hover{
+    transform: scale(1.1);
+}
+
+.user{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.user:hover{
+    transform: scale(1.1);
+}
+
+.download{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.download:hover{
+    transform: scale(1.1);
+}
+/*End of navigation bar*/
+
+/* Beginning of Video section*/
+.video_section{
+    border: solid black;
+    width: 300px;
+}
+
+.navigation_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    margin: 15px;
+    padding: 10px;
+    background-color: #121212; /* Match background color with container */
+    width: 50px; /* Adjust width to 50px */
+    height: 100vh; /* Ensure navigation bar takes full height */
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff; /* Change text color to white for better contrast */
+    width: 100%;
+}
+
+.nav-item i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.nav-item span {
+    font-size: 14px;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+}
+
+.Logo_search {
+    margin-right: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Allow search to take up remaining space */
+    justify-content: center; /* Center search button horizontally */
+}
+
+/*Thumbnail section*/
+.thumbnail {
+    display: flex;
+    flex-wrap: wrap; /* Allow thumbnails to wrap to the next line */
+    gap: 20px; /* Add space between thumbnails */
+    flex-grow: 1; /* Ensure thumbnail section takes up remaining space */
+    align-content: flex-start; /* Align items to the start to avoid white space */
+}
+
+.channel-description {
+    display: flex;
+}
+
+.thumb {
+    width: calc(20% - 20px); /* Adjust width to fit five thumbnails in a row */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: 0.5s;
+}
+
+.thumb:hover{
+    transform: scale(1.02);
+}
+
+.img {
+    width: 100%; /* Make image take the full width of the thumbnail */
+    border-radius: 20px;
+}
+
+.img:hover{
+   cursor: pointer;
+}
+
+.profile {
+    margin-top: 10px;
+    width: 40px;
+    border-radius: 60px;
+}
+
+.title {
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.username {
+    font-family: Arial;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.views_age {
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+/* Navigation button styles */
+.hamburger, .home, .play, .shorts, .user, .download {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.hamburger:hover, .home:hover, .play:hover, .shorts:hover, .user:hover, .download:hover {
+    transform: scale(1.1);
+}
+
